@@ -1,0 +1,122 @@
+body{
+    position: relative;
+    width: auto;
+    height: auto;
+    background: #F3F5FC;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 2%;
+        
+}
+.orden{
+    display: inline-block; 
+    
+}
+
+izquierda{
+    width: 69%;
+    height: 35em;
+    line-height: normal;
+    position: relative;
+    vertical-align: top;
+} 
+
+header{
+    height: 3em;
+    width: auto;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-left: 1em;
+
+   
+}
+.logoprincipal{
+    float: left;
+    width:10em;
+    height:4em;
+ 
+}
+
+.titulo{
+    height: 5em;
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+}
+
+main{
+    height: 20em;
+    box-sizing: border-box;
+    width: auto;
+    padding-top: 8em;
+    text-align: center;
+    
+}
+
+main form input{
+    opacity: 0.25;
+    font-size: 2em;
+    height: 2em;
+    width: 15em;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    
+}
+
+footer{
+    box-sizing: border-box;
+    height: 10em;
+    text-align: center;
+    
+}
+
+.accion{
+    width: 40%;
+    font-size: 3em;
+    font-weight: bold;
+    color: blue;
+    background: gray;
+    border: black;
+    border-radius: 20px;
+    transition: 1s all;
+    cursor: pointer;
+    
+}
+.accion:hover{
+    background: blue;
+    color: white;
+    border: black;
+    transform: scale(1.01);
+}
+
+derecha{
+    width: 28%;
+    height: 35em;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+.salida{
+    padding-top: 1em;
+    padding-left: 2em;
+    padding-bottom: 1em;
+    font-size: 2em;
+    opacity: 0;
+       
+}
+.salida_show{
+    padding-top: 1em;
+    padding-left: 2em;
+    padding-bottom: 1em;
+    font-size: 2em;
+}
+
+.inactivo{
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+}
+

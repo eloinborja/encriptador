@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang-"es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="width=device-width">
+        <title>Encriptador Eloin</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    </head> 
+
+    <body>
+        <izquierda class="orden">
+        
+            <header class="bloquesizquierda">
+                
+                <p><img src="Logo.png" alt="Logo de Alura" class="logoprincipal"></p>
+                <p class="titulo">ENCRIPTADOR DE FRASES DE ELOIN</p>
+                   
+            </header> 
+
+            <main class="bloquesizquierda">
+                    <form>
+                        <label for="input-texto">Ingrese solo letras en minusculas y sin acentuación</label>
+                        <input class="barra" type="text", name="input-texto" id="input-texto" required placeholder="Ingrese texto Aqui" onkeypress="return ((event.charCode >= 97 && event.charCode <= 122)||(event.charCode == 241))">
+
+                    </form>
+            </main>
+
+            <footer class="bloquesizquierda">
+                <form action="">
+                    
+                    <h1>Utilice los botones para encriptar o desencriptar el texto ingresado</h1>
+                    <input class="accion" type="button" value="Encriptar"  id="btn-encriptar">
+                    <input class="accion" type="button" value="Desencriptar" id="btn-desencriptar">
+                                       
+                </form>
+                   
+            </footer>
+        </izquierda>
+
+        <derecha class="orden">
+            
+
+            <div class="salida" id="andalaosa">
+                
+                <h2 id="">Resultado:</h2>
+                <input class="text-input-salida" type="text" id="msg">
+                <input class="btn" type="button" value="copiar" id="btn-copy">                
+
+            </div>
+
+            <div class="inactivo" id="prueba">
+                <img src="Muñeco.png" alt="Logo de Alura" class="imagenderecha">
+                <h1>Ningún mensaje fue encontrado</h1>
+                <h2>Ingrese el texto que desea encriptar o desencriptar</h2> 
+            </div>
+
+        </derecha>
+      
+        <script src="script.js"></script>
+    </body>
+</html>
+
